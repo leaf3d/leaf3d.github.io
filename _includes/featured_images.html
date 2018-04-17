@@ -1,0 +1,8 @@
+<div class="featured-images row stackable">
+  {% for featured_content in site.featured %}
+  <figure class="col half">
+    <img src="{{ featured_content.image }}"/>
+    <figcaption>{{ featured_content.title | escape }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>

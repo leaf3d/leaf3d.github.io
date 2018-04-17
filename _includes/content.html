@@ -1,0 +1,12 @@
+<div class="content">
+  <div class="container">
+    <div class="lightbox">
+      {{ site.description | markdownify }}
+    </div>
+    <div class="features">
+      {{ content | markdownify }}
+    </div>
+    {% include featured_images.html %}
+    {% include contribute.html %}
+  </div>
+</div>
