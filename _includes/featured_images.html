@@ -1,8 +1,18 @@
 <div class="featured-images row stackable">
   {% for featured_content in site.featured %}
-  <figure class="col half">
-    <img src="{{ featured_content.image }}"/>
-    <figcaption>{{ featured_content.title | escape }}</figcaption>
-  </figure>
+  <div class="col half">
+    <figure id="featured-image-{{ forloop.index }}" class="featured-image">
+      <img src="{{ featured_content.image }}"/>
+      <figcaption>
+        <span class="description">{{ featured_content.title | escape }}</span>
+        <a class="btn open-featured-image" href="#featured-image-{{ forloop.index }}">
+          <i class="fas fa-expand"></i>
+        </a>
+        <a class="btn close-featured-image" href="#">
+          <i class="fas fa-compress"></i>
+        </a>
+      </figcaption>
+    </figure>
+  </div>
   {% endfor %}
 </div>
