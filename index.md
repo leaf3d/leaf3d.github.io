@@ -12,6 +12,5 @@ The project is based on the following powerful technologies:
 * OpenGL
 * CMake
 * GLM
-* GLEW
 * GLFW
 * Assimp
