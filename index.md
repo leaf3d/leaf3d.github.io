@@ -9,8 +9,10 @@ The aim of **leaf3d** is to create a lightweight and cross-platform rendering en
 
 The project is based on the following powerful technologies:
 
-* OpenGL
-* CMake
-* GLM
-* GLFW
-* Assimp
+* **OpenGL**
+* **CMake**
+* **GLM**
+* **GLFW**
+* **Assimp**
+
+It can actually run on **Linux** and **Windows** platforms.
