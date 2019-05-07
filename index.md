@@ -15,4 +15,4 @@ The project is based on the following powerful technologies:
 * **GLFW**
 * **Assimp**
 
-It's able to run on **Linux** and **Windows** platforms.
+It's able to run on **Linux**, **MacOS** and **Windows** platforms.
